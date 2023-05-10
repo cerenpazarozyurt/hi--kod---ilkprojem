@@ -1,0 +1,59 @@
+#anamenu{
+    width: 520px;
+    height:50px;
+    background-color:#dfd7d2;
+    margin: auto;
+}
+body {
+  background-image: url(resimleer/women\ power.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.genel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  .box {
+    width: 33.3%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #827757;
+    border: 2px solid darkmagenta; /* Kutu kenarlarının rengi */
+    border-radius: 10px; /* Kutu köşelerinin yuvarlatılması */
+    box-shadow: 2px 2px 5px grey; /* Kutulara gölgelendirme efekti */
+    transition: all 0.3s ease-in-out; /* Yavaşça animasyonlu bir geçiş sağlar */
+    margin: 10px;
+  }
+
+  .box:hover {
+    transform: scale(1.05); /* Fare üzerine gelince kutuların büyümesi */
+    box-shadow: 4px 4px 10px grey; /* Gölgelendirme efektinin artması */
+  }
+
+  .box img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .box h2 {
+    margin-top: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: black;
+  }
+
+  .box p {
+    margin-bottom: 0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  a {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+  }

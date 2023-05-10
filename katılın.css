@@ -1,0 +1,40 @@
+#anamenu{
+    width: 520px;
+    height:50px;
+    background-color:#fff5e5;
+    margin: auto;
+}
+body {
+  background-image: url(resimleer/forum.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+        form {
+            background-color:#c1c0be ;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 5px;
+          }
+          
+          textarea {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            resize: none;
+          }
+          
+          button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+          
+          button:hover {
+            background-color: #3e8e41;
+          }
